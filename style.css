@@ -1,0 +1,369 @@
+body{
+  background-color: #333647 ;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+/* header section styling */
+.flex{
+  justify-content: center;
+}
+.text{
+text-align: center;  
+}
+
+.text-center{
+  font-weight: bold;
+  color: white;
+}
+
+.container{
+  position: relative;
+}
+.img{
+  width: 15%;
+  position: absolute;
+  right: -6px;
+  bottom: 0%;
+  overflow: hidden;
+}
+
+.header{
+background:  url('https://i.pinimg.com/originals/53/0a/74/530a746087d021696f38e010ff8c3112.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: lighten;
+    overflow-x: hidden;
+}
+
+ .container h1{
+   padding-top: 100px;
+   margin: 0px auto;
+   font-size: 45px;
+ }
+
+ .container p{
+   font-size: 20px;
+ }
+
+.card h5{
+  color: black;
+}
+h2{
+  color: black !important;
+}
+.about .card-body h5{
+  margin-bottom: 0rem;
+}
+
+.bg_img{
+  opacity: 0.8;
+  background-size: cover;
+}
+
+.card img{
+    height:200px;
+}
+/* header section styling */
+
+/* nav bar styling */
+a .nav-link{
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+.navbar-brand{
+  padding: 40px;
+}
+.navbar-toggler-icon{
+  color: white;
+}
+.navbar{
+  padding: 10px;
+}
+.nav_section .navbar-brand{
+  font-size: 32px;
+}
+.nav_section .navbar-nav li{
+  margin: 0px 8px;
+}
+.nav_section .navbar-nav li a{
+  color: white !important;
+}
+.nav_section .navbar-nav li a:hover{
+  color: orange;
+  text-decoration: underline;
+  transition: 0.5s;
+  line-height: 1.3rem;
+}
+.header .navbar a.nav-link:hover{
+  color: orange!important;
+ }
+.container .about img{
+  width:50%;
+  height: 350px;
+}
+/* nav bar styling end */
+
+
+/* my work styling */
+.card button{
+   background-color: #5ca0f2!important;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%)!important;
+}
+.card button a{
+  color: black!important;
+  font-weight: bold;
+}
+
+.card button:hover{
+  background-color: #182b3a;
+  background-image: linear-gradient(315deg, #182b3a 0%, #20a4f3 74%)!important;
+  border-color: rgb(17, 157, 204);
+  transition: 0.5s ease-in;
+}
+
+.card button a:hover {
+color: whitesmoke!important;
+}
+
+
+/* my work styling end */
+
+/* skill styling */
+  .skills{
+    width: 90%;
+    max-width: 600px;
+    padding: 0px ;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .skill-bar{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+  }
+  
+  .skill-per{
+    height: 14px;
+    background: #04c2c9;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top: -40px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+    #skills h2{
+      border-bottom-style: solid;
+      border-bottom-width: 3.1px;
+      line-height: 3.0rem;
+     width: fit-content;
+      text-transform: uppercase;
+    }
+    .container .skills{
+      margin-left: 25%;
+    }
+
+  /* skill styling end */
+#projects h2{
+  border-bottom-style: solid;
+  border-bottom-width: 3.1px;
+  line-height: 3.0rem;
+ width: fit-content;
+  text-transform: uppercase;
+}
+
+
+
+/* contact styling */
+  #contact h2{
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    line-height: 3.0rem;
+    width: fit-content;
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+  
+  #contact p{
+    color: #04c2c9;
+    font-size: 15px;
+  }
+  form{
+    padding-top: 10px;
+    
+  }
+  .form-group input{
+    background-color: rgba(24, 23, 23, 0.897);
+    color: whitesmoke;
+    border-color: rgb(104, 102, 102);
+  }
+  .form-group textarea{
+    background-color: rgba(24, 23, 23, 0.897);
+    border-color: rgb(104, 102, 102);
+  }
+.aa-secondary-btn{
+  padding: 10px 25px;
+  background-color:#222;
+  color: whitesmoke;
+  border:  2px solid whitesmoke;
+}
+
+.aa-secondary-btn:hover{
+  background-color: #04c2c9;
+ border: none;
+  transition: 0.5s ease-in;
+}
+
+
+.container .card-body{
+  margin-top: 5px!important;
+}
+
+
+/* contact styling end */
+
+
+/* about me styling */
+.about{
+  background-color: #f3f1f1af;
+}
+.about .card-title{
+  margin-top: 20%;
+  font-size: 20px;
+  font-weight: bold;
+}
+.about .card-body{
+  margin-left: -100px;
+}
+.about p{
+  font-size: 17px;
+
+}
+.about i{
+  background-color:#262f38;
+  color: white;
+  padding: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+  
+}
+.about i:hover{
+  background-color: #04c2c9;
+}
+
+/* about me styling end */
+
+
+
+
+
+  @keyframes fillBars{
+    from{
+      width: 0%;
+    }
+    to{
+      width: 100%;
+    }
+  }
+/*==================
+ FOOTER SECTION
+====================*/
+
+#aa-footer {
+  background-color: #222;
+  display: inline;
+  float: left;
+  width: 100%;
+  clip-path: polygon(0 0, 50% 15%, 100% 0, 100% 100%, 0 100%);
+  margin-top: 100px;
+}
+#aa-footer .aa-footer-top {
+  display: inline;
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+  min-height: 100px;
+}
+
+
+/* media query */
+@media only screen and (min-width: 780px)
+{
+  .container .card-body{
+    margin-top: 50px;
+  }
+}
+
+
+
+  @media only screen and (max-width: 580px){
+    .img{
+      width: 136px;
+      right: 0px;
+      visibility: hidden;
+    }
+    .container h1{
+      font-size: 35px;
+    }
+    .container p{
+      font-size: 10px;
+    }
+    .card{
+      width:100%;
+    }
+    .container .skills{
+      margin-left: 10px;
+    }
+    .container .about img{
+      width:50%;
+      height: 250px;
+    }
+    .container .card{
+      width: 100%!important;
+    }
+    .container .card-body{margin-top: 0px!important;
+      margin-left: 0px;
+    }
+    .about .card-body{
+      margin-top: -95px!important;
+      margin-left: 0px;
+    }  
+  }
